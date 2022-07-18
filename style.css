@@ -1,0 +1,32 @@
+#id1 > ul,p {
+    color: aqua;
+    background-color: black;
+    font-size: x-large;
+}
+
+p:active {
+    color: red;
+  }
+  h1:hover {
+    background-color: chartreuse;
+  }
+  #anchor:link {
+    color: red;
+  }
+  #anchor:visited {
+    color: lime;
+  }
+  p::before {
+    content: "BEFORE ";
+    color: aliceblue;
+  }
+  p::after {
+    content: " AFTER";
+    color: aliceblue;
+  }
+  div h1:first-child {
+    color: crimson;
+  }
+  div h1:last-child {
+    color: seagreen;
+  }
